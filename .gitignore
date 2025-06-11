@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+*.sqlite3
+
+# Virtualenv
+venv/
+.env
+.env.*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Render & Deployment
+*.bak
+*.swp
+*.tmp
+*.old
+
+# Tests / Local data
+test_output/
+logs/
+*.test
+
+# Ignore secrets
+openai_key.txt
